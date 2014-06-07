@@ -1,0 +1,20 @@
+:root {
+  --fontSizeRatio: 1;
+  --fontSizeUnit: 1rem;
+  --fontSize: calc(var(--fontSizeUnit) * var(--fontSizeRatio));
+
+  --lineHeight: calc(var(--fontSize) * 1.5625);
+  --doubleLineHeight: calc(var(--lineHeight) * 2);
+  --halfLineHeight: calc(var(--lineHeight) / 2);
+
+  --capHeight: calc(var(--fontSize) * 0.75);
+
+  --gutter-x: var(--fontSize);
+  --gutter-y: var(--lineHeight);
+  --gutter: var(--gutter-y) var(--gutter-x);
+}
+
+body {
+  font-size: var(--fontSize);
+  line-height: var(--lineHeight);
+}

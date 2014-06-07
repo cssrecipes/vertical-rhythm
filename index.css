@@ -1,0 +1,45 @@
+/**
+ * Vertical rhythm
+ *
+ * http://www.smashingmagazine.com/2012/12/17/css-baseline-the-good-the-bad-and-the-ugly/
+ * https://medium.com/typography/e258fce47a9b
+ * http://csswizardry.com/2012/06/single-direction-margin-declarations/
+ *
+ * What is font-size, line-height & cap-height ?
+ * https://d262ilb51hltx0.cloudfront.net/max/800/1*g7Lpl9hrmuSHxOCqMG9Tjg.png
+ *
+ *
+ * The_Mathematics_of_Music_and_Harmonics.pdf
+ n 2n/12
+ 0 1.000
+ 1 1.059
+ 2 1.122
+ 3 Minor Third 1.189 (1.200)
+ 4 Major Third 1.260 (1.250)
+ 5 Perfect Fourth 1.335 (1.333)
+ 6 1.414
+ 7 Perfect Fifth 1.498 (1.500)
+ 8 1.587
+ 9 1.682
+ 10 1.782
+ 11 1.888
+ 12 2.000
+ *
+ */
+
+/* choose your ratio, then import this file */
+/*eg: @import "./vertical-rhthym/ratio/minor-third.css";*/
+
+:root {
+  /* possible override */
+  /*--fontSizeRatio: 1;*/
+  /*--lineHeight: calc(--fontSize * 1.5);*/
+
+  /* recommanded override (depend on your font) */
+  /*--capHeight: X; */
+}
+
+@import "./components/vertical-rhythm/base.css";
+@import "./components/vertical-rhythm/headings.css";
+@import "./components/vertical-rhythm/misc.css";
+@import "./components/vertical-rhythm/helper.css";
