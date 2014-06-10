@@ -39,7 +39,7 @@
   /*--capHeight: X; */
 }
 
-@import "./components/vertical-rhythm/base.css";
-@import "./components/vertical-rhythm/headings.css";
-@import "./components/vertical-rhythm/misc.css";
-@import "./components/vertical-rhythm/helper.css";
+@import "./base.css";
+@import "./headings.css";
+@import "./misc.css";
+@import "./helper.css";
