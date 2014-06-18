@@ -2,6 +2,10 @@
 
 > Flexible CSS vertical rhythm
 
+## Install
+
+    npm install cssrecipes-vertical-rhythm
+
 ## Usage
 
 First import a chosen ratio, then the `index.css` (or just files you want).
@@ -27,3 +31,7 @@ You can override the following defaults values to change the appearance of the l
   --VerticalRhythm-helper-lineHeight: var(--lineHeight);
 }
 ```
+
+## [Changelog](CHANGELOG.md)
+
+## [License](LICENSE-MIT)

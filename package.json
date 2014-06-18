@@ -1,0 +1,25 @@
+{
+  "name": "cssrecipes-vertical-rhythm",
+  "version": "0.1.0",
+  "description": "Flexible CSS vertical rhythm",
+  "main": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cssrecipes/vertical-rhythm.git"
+  },
+  "keywords": [
+    "css",
+    "cssrecipes",
+    "vertical rhythm",
+    "grid"
+  ],
+  "author": "MoOx <m@moox.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cssrecipes/vertical-rhythm/issues"
+  },
+  "homepage": "https://github.com/cssrecipes/vertical-rhythm"
+}
