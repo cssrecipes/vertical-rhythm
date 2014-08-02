@@ -18,7 +18,7 @@ First import a chosen ratio, then the `index.css` (or just files you want).
 
 ### Helper
 
-Attach the class `VerticalRhythmHelper` to `<html>` to get a visual helper (vertical lines) to make adjustements for existing content.
+Attach the class `VerticalRhythmHelper` to `<html>` to get a visual helper (horizontal lines) to make adjustements for existing content.
 
 You can override the following defaults values to change the appearance of the lines
 
