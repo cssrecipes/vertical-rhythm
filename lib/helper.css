@@ -1,0 +1,27 @@
+/* vertical rhythm helper */
+:root {
+  --rcp-VerticalRhythm-helper-color: rgba(0, 0, 0, .25);
+  --rcp-VerticalRhythm-helper-color--light: color(var(--rcp-VerticalRhythm-helper-color) alpha(- 33%));
+  --rcp-VerticalRhythm-helper-color--lighter: color(var(--rcp-VerticalRhythm-helper-color) alpha(- 66%));
+}
+
+.rcp-VerticalRhythm-helper {
+  position: relative;
+  overflow: auto;
+}
+
+.rcp-VerticalRhythm-helper:after {
+  content: "";
+  z-index: 100000; /* should be enough right ?*/
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background:
+    linear-gradient(to bottom, var(--rcp-VerticalRhythm-helper-color) 1px, transparent 1px) 0 0 / 100% var(--lineHeight),
+    linear-gradient(to bottom, var(--rcp-VerticalRhythm-helper-color--light), transparent 1px) 0 calc(var(--lineHeight) * 0.5) / 100% var(--lineHeight),
+    linear-gradient(to bottom, var(--rcp-VerticalRhythm-helper-color--lighter), transparent 1px) 0 calc(var(--lineHeight) * 0.25) / 100% var(--lineHeight),
+    linear-gradient(to bottom, var(--rcp-VerticalRhythm-helper-color--lighter), transparent 1px) 0 calc(var(--lineHeight) * 0.75) / 100% var(--lineHeight);
+}

@@ -28,7 +28,7 @@
  */
 
 /* choose your ratio, then import this file */
-/*eg: @import "./vertical-rhthym/ratio/minor-third.css";*/
+/*eg: @import "./cssrecipes-vertical-rhthym/lib/ratio/minor-third.css";*/
 
 :root {
   /* possible override */
@@ -39,7 +39,7 @@
   /*--capHeight: X; */
 }
 
-@import "./base.css";
-@import "./headings.css";
-@import "./misc.css";
-@import "./helper.css";
+@import "./lib/base.css";
+@import "./lib/headings.css";
+@import "./lib/misc.css";
+@import "./lib/helper.css";
