@@ -13,7 +13,7 @@ Import `index.css` (or just files you want) & don't forget import a ratio as wel
 
 ```css
 @import "./path/to/cssrecipes-vertical-rhythm/index.css";
-@import "./path/to/cssrecipes-vertical-rhythm/ratio/minor-third.css";
+@import "./path/to/cssrecipes-vertical-rhythm/lib/ratio/minor-third.css";
 ```
 
 ### Helper
