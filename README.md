@@ -12,8 +12,8 @@ Import `index.css` (or just files you want) & don't forget import a ratio as wel
 (**Right now, the only ratio available is _minor third_**, feel free to add more with a PR).
 
 ```css
-@import "./path/to/vertical-rhythm/index.css";
-@import "./path/to/vertical-rhythm/ratio/minor-third.css";
+@import "./path/to/cssrecipes-vertical-rhythm/index.css";
+@import "./path/to/cssrecipes-vertical-rhythm/ratio/minor-third.css";
 ```
 
 ### Helper
