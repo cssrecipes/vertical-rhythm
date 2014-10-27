@@ -4,7 +4,9 @@
 
 ## Install
 
-    npm install cssrecipes-vertical-rhythm
+```sh
+$ npm install cssrecipes-vertical-rhythm
+```
 
 ## Usage
 
@@ -34,27 +36,30 @@ You can override the following defaults values to change the appearance of the l
 
 ## Testing
 
-_Requires [nodejs](http://nodejs.org)_
-
 To generate a build:
 
-	npm run build
+```sh
+$ npm run build
+```
 
 To generate the testing build.
 
-	$ npm run build-test
+```sh
+$ npm run build-test
+```
 
 Basic visual tests are in `test/index.html`.
-
 
 ## Contributing
 
 Work on a branch, install dev-dependencies, respect coding style & run tests before submitting a bug fix or a feature.
 
-    $ git clone https://github.com/cssrecipes/vertical-rhythm.git
-    $ git checkout -b patch-1
-    $ npm install
-    $ npm test
+```sh
+$ git clone https://github.com/cssrecipes/vertical-rhythm.git
+$ git checkout -b patch-1
+$ npm install
+$ npm test
+```
 
 ## [Changelog](CHANGELOG.md)
 
