@@ -14,7 +14,7 @@
   --gutter: var(--gutter-y) var(--gutter-x);
 }
 
-.rcp-VerticalRhythm {
+.cssr-VerticalRhythm {
   font-size: var(--fontSize);
   line-height: var(--lineHeight);
 }

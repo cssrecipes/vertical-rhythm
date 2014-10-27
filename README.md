@@ -18,17 +18,43 @@ Import `index.css` (or just files you want) & don't forget import a ratio as wel
 
 ### Helper
 
-Attach the class `rcp-VerticalRhythm-helper` to `<html>` to get a visual helper (horizontal lines) to make adjustements for existing content.
+Attach the class `cssr-VerticalRhythm-helper` to `<html>` to get a visual helper (horizontal lines) to make adjustements for existing content.
 
 You can override the following defaults values to change the appearance of the lines
 
 ```css
 :root {
-  --rcp-VerticalRhythm-helper-color: rgba(0, 0, 0, .25);
-  --rcp-VerticalRhythm-helper-color--light: color(var(--rcp-VerticalRhythm-helper-color) alpha(- 33%));
-  --rcp-VerticalRhythm-helper-color--lighter: color(var(--rcp-VerticalRhythm-helper-color) alpha(- 66%));
+  --cssr-VerticalRhythm-helper-color: rgba(0, 0, 0, .25);
+  --cssr-VerticalRhythm-helper-color--light: color(var(--cssr-VerticalRhythm-helper-color) alpha(- 33%));
+  --cssr-VerticalRhythm-helper-color--lighter: color(var(--cssr-VerticalRhythm-helper-color) alpha(- 66%));
 }
 ```
+
+---
+
+## Testing
+
+_Requires [nodejs](http://nodejs.org)_
+
+To generate a build:
+
+	npm run build
+
+To generate the testing build.
+
+	$ npm run build-test
+
+Basic visual tests are in `test/index.html`.
+
+
+## Contributing
+
+Work on a branch, install dev-dependencies, respect coding style & run tests before submitting a bug fix or a feature.
+
+    $ git clone https://github.com/cssrecipes/vertical-rhythm.git
+    $ git checkout -b patch-1
+    $ npm install
+    $ npm test
 
 ## [Changelog](CHANGELOG.md)
 

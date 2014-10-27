@@ -1,15 +1,15 @@
-.rcp-VerticalRhythm h1,
-.rcp-VerticalRhythm .h1,
-.rcp-VerticalRhythm h2,
-.rcp-VerticalRhythm .h2,
-.rcp-VerticalRhythm h3,
-.rcp-VerticalRhythm .h3,
-.rcp-VerticalRhythm h4,
-.rcp-VerticalRhythm .h4,
-.rcp-VerticalRhythm h5,
-.rcp-VerticalRhythm .h5,
-.rcp-VerticalRhythm h6,
-.rcp-VerticalRhythm .h6 {
+.cssr-VerticalRhythm h1,
+.cssr-VerticalRhythm .h1,
+.cssr-VerticalRhythm h2,
+.cssr-VerticalRhythm .h2,
+.cssr-VerticalRhythm h3,
+.cssr-VerticalRhythm .h3,
+.cssr-VerticalRhythm h4,
+.cssr-VerticalRhythm .h4,
+.cssr-VerticalRhythm h5,
+.cssr-VerticalRhythm .h5,
+.cssr-VerticalRhythm h6,
+.cssr-VerticalRhythm .h6 {
   margin: 0;
   padding: 0;
 }
@@ -21,8 +21,8 @@
  * <h1>Heading 1</h1>
  * <div class="h1">Heading 1</div>
  */
-.rcp-VerticalRhythm h1,
-.rcp-VerticalRhythm .h1 {
+.cssr-VerticalRhythm h1,
+.cssr-VerticalRhythm .h1 {
   font-size: var(--h1-fontSize);
   line-height: var(--h1-lineHeight);
   padding-top: var(--h1-paddingTop);
@@ -35,8 +35,8 @@
  * <h2>Heading 2</h2>
  * <div class="h2">Heading 2</div>
  */
-.rcp-VerticalRhythm h2,
-.rcp-VerticalRhythm .h2 {
+.cssr-VerticalRhythm h2,
+.cssr-VerticalRhythm .h2 {
   font-size: var(--h2-fontSize);
   line-height: var(--h2-lineHeight);
   padding-top: var(--h2-paddingTop);
@@ -49,8 +49,8 @@
  * <h3>Heading 3</h3>
  * <div class="h3">Heading 3</div>
  */
-.rcp-VerticalRhythm h3,
-.rcp-VerticalRhythm .h3 {
+.cssr-VerticalRhythm h3,
+.cssr-VerticalRhythm .h3 {
   font-size: var(--h3-fontSize);
   line-height: var(--h3-lineHeight);
   padding-top: var(--h3-paddingTop);
@@ -63,8 +63,8 @@
  * <h4>Heading 4</h4>
  * <div class="h4">Heading 4</div>
  */
-.rcp-VerticalRhythm h4,
-.rcp-VerticalRhythm .h4 {
+.cssr-VerticalRhythm h4,
+.cssr-VerticalRhythm .h4 {
   font-size: var(--h4-fontSize);
   line-height: var(--h4-lineHeight);
   padding-top: var(--h4-paddingTop);
@@ -77,8 +77,8 @@
  * <h5>Heading 5</h5>
  * <div class="h5">Heading 5</div>
  */
-.rcp-VerticalRhythm h5,
-.rcp-VerticalRhythm .h5 {
+.cssr-VerticalRhythm h5,
+.cssr-VerticalRhythm .h5 {
   font-size: var(--h5-fontSize);
   line-height: var(--h5-lineHeight);
   padding-top: var(--h5-paddingTop);
@@ -91,8 +91,8 @@
  * <h6>Heading 6</h6>
  * <div class="h6">Heading 6</div>
  */
-.rcp-VerticalRhythm h6,
-.rcp-VerticalRhythm .h6 {
+.cssr-VerticalRhythm h6,
+.cssr-VerticalRhythm .h6 {
   font-size: var(--h6-fontSize);
   line-height: var(--h6-lineHeight);
   padding-top: var(--h6-paddingTop);
@@ -100,7 +100,7 @@
 }
 
 /* since h5 & h6 always small, it's interesting to have a difference with classic text */
-.rcp-VerticalRhythm h5,
-.rcp-VerticalRhythm .h5
-.rcp-VerticalRhythm h6,
-.rcp-VerticalRhythm .h6 { text-decoration: underline }
+.cssr-VerticalRhythm h5,
+.cssr-VerticalRhythm .h5
+.cssr-VerticalRhythm h6,
+.cssr-VerticalRhythm .h6 { text-decoration: underline }

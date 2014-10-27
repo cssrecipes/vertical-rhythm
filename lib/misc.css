@@ -4,17 +4,17 @@
  * <small>small</small>
  * <small><small>smaller</small></small>
  */
-.rcp-VerticalRhythm small { font-size: var(--small-fontSize)}
+.cssr-VerticalRhythm small { font-size: var(--small-fontSize)}
 
 /* misc, really */
-.rcp-VerticalRhythm ul,
-.rcp-VerticalRhythm ol,
-.rcp-VerticalRhythm dl,
-.rcp-VerticalRhythm p,
-.rcp-VerticalRhythm figure,
-.rcp-VerticalRhythm pre,
-.rcp-VerticalRhythm table,
-.rcp-VerticalRhythm fieldset,
-.rcp-VerticalRhythm hr {
+.cssr-VerticalRhythm ul,
+.cssr-VerticalRhythm ol,
+.cssr-VerticalRhythm dl,
+.cssr-VerticalRhythm p,
+.cssr-VerticalRhythm figure,
+.cssr-VerticalRhythm pre,
+.cssr-VerticalRhythm table,
+.cssr-VerticalRhythm fieldset,
+.cssr-VerticalRhythm hr {
   margin: 0 0 var(--lineHeight);
 }

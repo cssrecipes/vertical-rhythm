@@ -9,7 +9,7 @@
     "vertical rhythm",
     "grid"
   ],
-  "author": "MoOx <m@moox.io>",
+  "author": "Maxime Thirouin",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -24,12 +24,11 @@
   "files": [
     "CHANGELOG.md",
     "LICENSE",
-    "README.md",
     "lib",
     "index.css"
   ],
   "devDependencies": {
-    "cssnext": "^0.3.0"
+    "cssnext": "^0.4.0"
   },
   "scripts": {
     "setup": "npm install && mkdir -p build",
