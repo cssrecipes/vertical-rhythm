@@ -1,3 +1,8 @@
+# 0.4.0 - 2014-10-29
+
+- remove --doubleLineHeight & --halfLineHeight to avoid too many custom props
+- all custom props prefixed
+
 # 0.3.0 - 2014-10-27
 
 - update org prefix to `cssr`

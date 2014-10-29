@@ -4,7 +4,7 @@
  * <small>small</small>
  * <small><small>smaller</small></small>
  */
-.cssr-VerticalRhythm small { font-size: var(--small-fontSize)}
+.cssr-VerticalRhythm small { font-size: var(--cssr-small-fontSize)}
 
 /* misc, really */
 .cssr-VerticalRhythm ul,
@@ -16,5 +16,5 @@
 .cssr-VerticalRhythm table,
 .cssr-VerticalRhythm fieldset,
 .cssr-VerticalRhythm hr {
-  margin: 0 0 var(--lineHeight);
+  margin: 0 0 var(--cssr-lineHeight);
 }

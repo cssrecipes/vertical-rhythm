@@ -20,8 +20,8 @@
   left: 0;
 
   background:
-    linear-gradient(to bottom, var(--cssr-VerticalRhythm-helper-color) 1px, transparent 1px) 0 0 / 100% var(--lineHeight),
-    linear-gradient(to bottom, var(--cssr-VerticalRhythm-helper-color--light), transparent 1px) 0 calc(var(--lineHeight) * 0.5) / 100% var(--lineHeight),
-    linear-gradient(to bottom, var(--cssr-VerticalRhythm-helper-color--lighter), transparent 1px) 0 calc(var(--lineHeight) * 0.25) / 100% var(--lineHeight),
-    linear-gradient(to bottom, var(--cssr-VerticalRhythm-helper-color--lighter), transparent 1px) 0 calc(var(--lineHeight) * 0.75) / 100% var(--lineHeight);
+    linear-gradient(to bottom, var(--cssr-VerticalRhythm-helper-color) 1px, transparent 1px) 0 0 / 100% var(--cssr-lineHeight),
+    linear-gradient(to bottom, var(--cssr-VerticalRhythm-helper-color--light), transparent 1px) 0 calc(var(--cssr-lineHeight) * 0.5) / 100% var(--cssr-lineHeight),
+    linear-gradient(to bottom, var(--cssr-VerticalRhythm-helper-color--lighter), transparent 1px) 0 calc(var(--cssr-lineHeight) * 0.25) / 100% var(--cssr-lineHeight),
+    linear-gradient(to bottom, var(--cssr-VerticalRhythm-helper-color--lighter), transparent 1px) 0 calc(var(--cssr-lineHeight) * 0.75) / 100% var(--cssr-lineHeight);
 }
