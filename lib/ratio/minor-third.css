@@ -1,48 +1,48 @@
 :root {
-  --cssr-VerticalRhythm-ratio: 1.200; /* minor third ratio */
+  --r-VerticalRhythm-ratio: 1.200; /* minor third ratio */
 
-  --cssr-h1-fontSize: calc(var(--cssr-fontSize) * var(--cssr-VerticalRhythm-ratio) * var(--cssr-VerticalRhythm-ratio) * var(--cssr-VerticalRhythm-ratio) * var(--cssr-VerticalRhythm-ratio));
-  --cssr-h1-lines: 2; /* depend on fontSize*/
-  --cssr-h1-lineHeight: calc(var(--cssr-lineHeight) * var(--cssr-h1-lines));
-  --cssr-h1-baseLineDistance: calc((var(--cssr-lineHeight) - var(--cssr-capHeight)) / 2);
-  --cssr-h1-paddingTop: var(--cssr-h1-baseLineDistance);
-  --cssr-h1-marginBottom: calc(var(--cssr-lineHeight) - var(--cssr-h1-baseLineDistance));
+  --r-h1-fontSize: calc(var(--r-fontSize) * var(--r-VerticalRhythm-ratio) * var(--r-VerticalRhythm-ratio) * var(--r-VerticalRhythm-ratio) * var(--r-VerticalRhythm-ratio));
+  --r-h1-lines: 2; /* depend on fontSize*/
+  --r-h1-lineHeight: calc(var(--r-lineHeight) * var(--r-h1-lines));
+  --r-h1-baseLineDistance: calc((var(--r-lineHeight) - var(--r-capHeight)) / 2);
+  --r-h1-paddingTop: var(--r-h1-baseLineDistance);
+  --r-h1-marginBottom: calc(var(--r-lineHeight) - var(--r-h1-baseLineDistance));
 
-  --cssr-h2-fontSize: calc(var(--cssr-fontSize) * var(--cssr-VerticalRhythm-ratio) * var(--cssr-VerticalRhythm-ratio) * var(--cssr-VerticalRhythm-ratio));
-  --cssr-h2-lines: 1; /* depend on fontSize*/
-  --cssr-h2-lineHeight: calc(var(--cssr-lineHeight) * var(--cssr-h2-lines));
-  --cssr-h2-baseLineDistance: calc((var(--cssr-lineHeight) - var(--cssr-capHeight)) / 2);
-  --cssr-h2-paddingTop: var(--cssr-h2-baseLineDistance);
-  --cssr-h2-marginBottom: calc(var(--cssr-lineHeight) - var(--cssr-h2-baseLineDistance));
+  --r-h2-fontSize: calc(var(--r-fontSize) * var(--r-VerticalRhythm-ratio) * var(--r-VerticalRhythm-ratio) * var(--r-VerticalRhythm-ratio));
+  --r-h2-lines: 1; /* depend on fontSize*/
+  --r-h2-lineHeight: calc(var(--r-lineHeight) * var(--r-h2-lines));
+  --r-h2-baseLineDistance: calc((var(--r-lineHeight) - var(--r-capHeight)) / 2);
+  --r-h2-paddingTop: var(--r-h2-baseLineDistance);
+  --r-h2-marginBottom: calc(var(--r-lineHeight) - var(--r-h2-baseLineDistance));
 
-  --cssr-h3-fontSize: calc(var(--cssr-fontSize) * var(--cssr-VerticalRhythm-ratio) * var(--cssr-VerticalRhythm-ratio));
-  --cssr-h3-lines: 1; /* depend on fontSize*/
-  --cssr-h3-lineHeight: calc(var(--cssr-lineHeight) * var(--cssr-h3-lines));
-  --cssr-h3-baseLineDistance: calc((var(--cssr-lineHeight) - var(--cssr-capHeight)) / 2);
-  --cssr-h3-paddingTop: var(--cssr-h3-baseLineDistance);
-  --cssr-h3-marginBottom: calc(var(--cssr-lineHeight) - var(--cssr-h3-baseLineDistance));
+  --r-h3-fontSize: calc(var(--r-fontSize) * var(--r-VerticalRhythm-ratio) * var(--r-VerticalRhythm-ratio));
+  --r-h3-lines: 1; /* depend on fontSize*/
+  --r-h3-lineHeight: calc(var(--r-lineHeight) * var(--r-h3-lines));
+  --r-h3-baseLineDistance: calc((var(--r-lineHeight) - var(--r-capHeight)) / 2);
+  --r-h3-paddingTop: var(--r-h3-baseLineDistance);
+  --r-h3-marginBottom: calc(var(--r-lineHeight) - var(--r-h3-baseLineDistance));
 
-  --cssr-h4-fontSize: calc(var(--cssr-fontSize) * var(--cssr-VerticalRhythm-ratio));
-  --cssr-h4-lines: 1; /* depend on fontSize*/
-  --cssr-h4-lineHeight: calc(var(--cssr-lineHeight) * var(--cssr-h4-lines));
-  --cssr-h4-baseLineDistance: calc((var(--cssr-lineHeight) - var(--cssr-capHeight)) / 2);
-  --cssr-h4-paddingTop: var(--cssr-h4-baseLineDistance);
-  --cssr-h4-marginBottom: calc(var(--cssr-lineHeight) - var(--cssr-h4-baseLineDistance));
+  --r-h4-fontSize: calc(var(--r-fontSize) * var(--r-VerticalRhythm-ratio));
+  --r-h4-lines: 1; /* depend on fontSize*/
+  --r-h4-lineHeight: calc(var(--r-lineHeight) * var(--r-h4-lines));
+  --r-h4-baseLineDistance: calc((var(--r-lineHeight) - var(--r-capHeight)) / 2);
+  --r-h4-paddingTop: var(--r-h4-baseLineDistance);
+  --r-h4-marginBottom: calc(var(--r-lineHeight) - var(--r-h4-baseLineDistance));
 
-  --cssr-h5-fontSize: calc(var(--cssr-fontSize));
-  --cssr-h5-lines: 1; /* depend on fontSize*/
-  --cssr-h5-lineHeight: calc(var(--cssr-lineHeight) * var(--cssr-h5-lines));
-  --cssr-h5-baseLineDistance: calc((var(--cssr-lineHeight) - var(--cssr-capHeight)) / 2);
-  --cssr-h5-paddingTop: var(--cssr-h5-baseLineDistance);
-  --cssr-h5-marginBottom: calc(var(--cssr-lineHeight) - var(--cssr-h5-baseLineDistance));
+  --r-h5-fontSize: calc(var(--r-fontSize));
+  --r-h5-lines: 1; /* depend on fontSize*/
+  --r-h5-lineHeight: calc(var(--r-lineHeight) * var(--r-h5-lines));
+  --r-h5-baseLineDistance: calc((var(--r-lineHeight) - var(--r-capHeight)) / 2);
+  --r-h5-paddingTop: var(--r-h5-baseLineDistance);
+  --r-h5-marginBottom: calc(var(--r-lineHeight) - var(--r-h5-baseLineDistance));
 
-  --cssr-h6-fontSize: calc(var(--cssr-fontSize) / var(--cssr-VerticalRhythm-ratio));
-  --cssr-h6-lines: 1; /* depend on fontSize*/
-  --cssr-h6-lineHeight: calc(var(--cssr-lineHeight) * var(--cssr-h6-lines));
-  --cssr-h6-baseLineDistance: calc((var(--cssr-lineHeight) - var(--cssr-capHeight)) / 2);
-  --cssr-h6-paddingTop: var(--cssr-h6-baseLineDistance);
-  --cssr-h6-marginBottom: calc(var(--cssr-lineHeight) - var(--cssr-h6-baseLineDistance));
+  --r-h6-fontSize: calc(var(--r-fontSize) / var(--r-VerticalRhythm-ratio));
+  --r-h6-lines: 1; /* depend on fontSize*/
+  --r-h6-lineHeight: calc(var(--r-lineHeight) * var(--r-h6-lines));
+  --r-h6-baseLineDistance: calc((var(--r-lineHeight) - var(--r-capHeight)) / 2);
+  --r-h6-paddingTop: var(--r-h6-baseLineDistance);
+  --r-h6-marginBottom: calc(var(--r-lineHeight) - var(--r-h6-baseLineDistance));
 
   /* not rem so you can use .small in .small */
-  --cssr-small-fontSize: calc(1em * var(--cssr-fontSizeRatio) / var(--cssr-VerticalRhythm-ratio));
+  --r-small-fontSize: calc(1em * var(--r-fontSizeRatio) / var(--r-VerticalRhythm-ratio));
 }

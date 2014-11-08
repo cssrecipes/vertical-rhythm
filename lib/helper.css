@@ -1,16 +1,16 @@
 /* vertical rhythm helper */
 :root {
-  --cssr-VerticalRhythm-helper-color: rgba(0, 0, 0, .25);
-  --cssr-VerticalRhythm-helper-color--light: color(var(--cssr-VerticalRhythm-helper-color) alpha(- 33%));
-  --cssr-VerticalRhythm-helper-color--lighter: color(var(--cssr-VerticalRhythm-helper-color) alpha(- 66%));
+  --r-VerticalRhythm-helper-color: rgba(0, 0, 0, .25);
+  --r-VerticalRhythm-helper-color--light: color(var(--r-VerticalRhythm-helper-color) alpha(- 33%));
+  --r-VerticalRhythm-helper-color--lighter: color(var(--r-VerticalRhythm-helper-color) alpha(- 66%));
 }
 
-.cssr-VerticalRhythm-helper {
+.r-VerticalRhythm-helper {
   position: relative;
   overflow: auto;
 }
 
-.cssr-VerticalRhythm-helper:after {
+.r-VerticalRhythm-helper:after {
   content: "";
   z-index: 100000; /* should be enough right ?*/
   position: absolute;
@@ -20,8 +20,8 @@
   left: 0;
 
   background:
-    linear-gradient(to bottom, var(--cssr-VerticalRhythm-helper-color) 1px, transparent 1px) 0 0 / 100% var(--cssr-lineHeight),
-    linear-gradient(to bottom, var(--cssr-VerticalRhythm-helper-color--light), transparent 1px) 0 calc(var(--cssr-lineHeight) * 0.5) / 100% var(--cssr-lineHeight),
-    linear-gradient(to bottom, var(--cssr-VerticalRhythm-helper-color--lighter), transparent 1px) 0 calc(var(--cssr-lineHeight) * 0.25) / 100% var(--cssr-lineHeight),
-    linear-gradient(to bottom, var(--cssr-VerticalRhythm-helper-color--lighter), transparent 1px) 0 calc(var(--cssr-lineHeight) * 0.75) / 100% var(--cssr-lineHeight);
+    linear-gradient(to bottom, var(--r-VerticalRhythm-helper-color) 1px, transparent 1px) 0 0 / 100% var(--r-lineHeight),
+    linear-gradient(to bottom, var(--r-VerticalRhythm-helper-color--light), transparent 1px) 0 calc(var(--r-lineHeight) * 0.5) / 100% var(--r-lineHeight),
+    linear-gradient(to bottom, var(--r-VerticalRhythm-helper-color--lighter), transparent 1px) 0 calc(var(--r-lineHeight) * 0.25) / 100% var(--r-lineHeight),
+    linear-gradient(to bottom, var(--r-VerticalRhythm-helper-color--lighter), transparent 1px) 0 calc(var(--r-lineHeight) * 0.75) / 100% var(--r-lineHeight);
 }

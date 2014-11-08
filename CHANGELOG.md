@@ -1,3 +1,7 @@
+# 0.5.0 - 2014-11-08
+
+- update org prefix to `r`
+
 # 0.4.0 - 2014-10-29
 
 - remove --doubleLineHeight & --halfLineHeight to avoid too many custom props

@@ -32,11 +32,11 @@
 
 :root {
   /* possible override */
-  /*--cssr-fontSizeRatio: 1;*/
-  /*--cssr-lineHeight: calc(--cssr-fontSize * 1.5);*/
+  /*--r-fontSizeRatio: 1;*/
+  /*--r-lineHeight: calc(--r-fontSize * 1.5);*/
 
   /* recommanded override (depend on your font) */
-  /*--cssr-capHeight: X; */
+  /*--r-capHeight: X; */
 }
 
 @import "./lib/base.css";

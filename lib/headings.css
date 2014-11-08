@@ -1,15 +1,15 @@
-.cssr-VerticalRhythm h1,
-.cssr-VerticalRhythm .h1,
-.cssr-VerticalRhythm h2,
-.cssr-VerticalRhythm .h2,
-.cssr-VerticalRhythm h3,
-.cssr-VerticalRhythm .h3,
-.cssr-VerticalRhythm h4,
-.cssr-VerticalRhythm .h4,
-.cssr-VerticalRhythm h5,
-.cssr-VerticalRhythm .h5,
-.cssr-VerticalRhythm h6,
-.cssr-VerticalRhythm .h6 {
+.r-VerticalRhythm h1,
+.r-VerticalRhythm .h1,
+.r-VerticalRhythm h2,
+.r-VerticalRhythm .h2,
+.r-VerticalRhythm h3,
+.r-VerticalRhythm .h3,
+.r-VerticalRhythm h4,
+.r-VerticalRhythm .h4,
+.r-VerticalRhythm h5,
+.r-VerticalRhythm .h5,
+.r-VerticalRhythm h6,
+.r-VerticalRhythm .h6 {
   margin: 0;
   padding: 0;
 }
@@ -21,12 +21,12 @@
  * <h1>Heading 1</h1>
  * <div class="h1">Heading 1</div>
  */
-.cssr-VerticalRhythm h1,
-.cssr-VerticalRhythm .h1 {
-  font-size: var(--cssr-h1-fontSize);
-  line-height: var(--cssr-h1-lineHeight);
-  padding-top: var(--cssr-h1-paddingTop);
-  margin-bottom: var(--cssr-h1-marginBottom);
+.r-VerticalRhythm h1,
+.r-VerticalRhythm .h1 {
+  font-size: var(--r-h1-fontSize);
+  line-height: var(--r-h1-lineHeight);
+  padding-top: var(--r-h1-paddingTop);
+  margin-bottom: var(--r-h1-marginBottom);
 }
 
 /**
@@ -35,12 +35,12 @@
  * <h2>Heading 2</h2>
  * <div class="h2">Heading 2</div>
  */
-.cssr-VerticalRhythm h2,
-.cssr-VerticalRhythm .h2 {
-  font-size: var(--cssr-h2-fontSize);
-  line-height: var(--cssr-h2-lineHeight);
-  padding-top: var(--cssr-h2-paddingTop);
-  margin-bottom: var(--cssr-h2-marginBottom);
+.r-VerticalRhythm h2,
+.r-VerticalRhythm .h2 {
+  font-size: var(--r-h2-fontSize);
+  line-height: var(--r-h2-lineHeight);
+  padding-top: var(--r-h2-paddingTop);
+  margin-bottom: var(--r-h2-marginBottom);
 }
 
 /**
@@ -49,12 +49,12 @@
  * <h3>Heading 3</h3>
  * <div class="h3">Heading 3</div>
  */
-.cssr-VerticalRhythm h3,
-.cssr-VerticalRhythm .h3 {
-  font-size: var(--cssr-h3-fontSize);
-  line-height: var(--cssr-h3-lineHeight);
-  padding-top: var(--cssr-h3-paddingTop);
-  margin-bottom: var(--cssr-h3-marginBottom);
+.r-VerticalRhythm h3,
+.r-VerticalRhythm .h3 {
+  font-size: var(--r-h3-fontSize);
+  line-height: var(--r-h3-lineHeight);
+  padding-top: var(--r-h3-paddingTop);
+  margin-bottom: var(--r-h3-marginBottom);
 }
 
 /**
@@ -63,12 +63,12 @@
  * <h4>Heading 4</h4>
  * <div class="h4">Heading 4</div>
  */
-.cssr-VerticalRhythm h4,
-.cssr-VerticalRhythm .h4 {
-  font-size: var(--cssr-h4-fontSize);
-  line-height: var(--cssr-h4-lineHeight);
-  padding-top: var(--cssr-h4-paddingTop);
-  margin-bottom: var(--cssr-h4-marginBottom);
+.r-VerticalRhythm h4,
+.r-VerticalRhythm .h4 {
+  font-size: var(--r-h4-fontSize);
+  line-height: var(--r-h4-lineHeight);
+  padding-top: var(--r-h4-paddingTop);
+  margin-bottom: var(--r-h4-marginBottom);
 }
 
 /**
@@ -77,12 +77,12 @@
  * <h5>Heading 5</h5>
  * <div class="h5">Heading 5</div>
  */
-.cssr-VerticalRhythm h5,
-.cssr-VerticalRhythm .h5 {
-  font-size: var(--cssr-h5-fontSize);
-  line-height: var(--cssr-h5-lineHeight);
-  padding-top: var(--cssr-h5-paddingTop);
-  margin-bottom: var(--cssr-h5-marginBottom);
+.r-VerticalRhythm h5,
+.r-VerticalRhythm .h5 {
+  font-size: var(--r-h5-fontSize);
+  line-height: var(--r-h5-lineHeight);
+  padding-top: var(--r-h5-paddingTop);
+  margin-bottom: var(--r-h5-marginBottom);
 }
 
 /**
@@ -91,16 +91,16 @@
  * <h6>Heading 6</h6>
  * <div class="h6">Heading 6</div>
  */
-.cssr-VerticalRhythm h6,
-.cssr-VerticalRhythm .h6 {
-  font-size: var(--cssr-h6-fontSize);
-  line-height: var(--cssr-h6-lineHeight);
-  padding-top: var(--cssr-h6-paddingTop);
-  margin-bottom: var(--cssr-h6-marginBottom);
+.r-VerticalRhythm h6,
+.r-VerticalRhythm .h6 {
+  font-size: var(--r-h6-fontSize);
+  line-height: var(--r-h6-lineHeight);
+  padding-top: var(--r-h6-paddingTop);
+  margin-bottom: var(--r-h6-marginBottom);
 }
 
 /* since h5 & h6 always small, it's interesting to have a difference with classic text */
-.cssr-VerticalRhythm h5,
-.cssr-VerticalRhythm .h5
-.cssr-VerticalRhythm h6,
-.cssr-VerticalRhythm .h6 { text-decoration: underline }
+.r-VerticalRhythm h5,
+.r-VerticalRhythm .h5
+.r-VerticalRhythm h6,
+.r-VerticalRhythm .h6 { text-decoration: underline }

@@ -1,18 +1,18 @@
 :root {
-  --cssr-fontSizeRatio: 1;
-  --cssr-fontSizeUnit: 1rem;
-  --cssr-fontSize: calc(var(--cssr-fontSizeUnit) * var(--cssr-fontSizeRatio));
+  --r-fontSizeRatio: 1;
+  --r-fontSizeUnit: 1rem;
+  --r-fontSize: calc(var(--r-fontSizeUnit) * var(--r-fontSizeRatio));
 
-  --cssr-lineHeight: calc(var(--cssr-fontSize) * 1.5625);
+  --r-lineHeight: calc(var(--r-fontSize) * 1.5625);
 
-  --cssr-capHeight: calc(var(--cssr-fontSize) * 0.75);
+  --r-capHeight: calc(var(--r-fontSize) * 0.75);
 
-  --cssr-gutter-x: var(--cssr-fontSize);
-  --cssr-gutter-y: var(--cssr-lineHeight);
-  --cssr-gutter: var(--cssr-gutter-y) var(--cssr-gutter-x);
+  --r-gutter-x: var(--r-fontSize);
+  --r-gutter-y: var(--r-lineHeight);
+  --r-gutter: var(--r-gutter-y) var(--r-gutter-x);
 }
 
-.cssr-VerticalRhythm {
-  font-size: var(--cssr-fontSize);
-  line-height: var(--cssr-lineHeight);
+.r-VerticalRhythm {
+  font-size: var(--r-fontSize);
+  line-height: var(--r-lineHeight);
 }

@@ -18,11 +18,11 @@ Import `index.css` (or just files you want) & don't forget import a ratio as wel
 @import "./node_modules/cssrecipes-vertical-rhythm/lib/ratio/minor-third.css";
 ```
 
-Then use `.cssr-VerticalRhythm` on your `<html>` (or anywhere you want)
+Then use `.r-VerticalRhythm` on your `<html>` (or anywhere you want)
 
 ```html
 <!doctype html>
-<html class="cssr-VerticalRhythm">
+<html class="r-VerticalRhythm">
 /* ... */
 </html>
 ```
@@ -33,77 +33,77 @@ You can obviously override of the lib, but here is only what you should consider
 
 ```css
 :root {
-  --cssr-fontSizeRatio: 1;
-  --cssr-fontSizeUnit: 1rem;
+  --r-fontSizeRatio: 1;
+  --r-fontSizeUnit: 1rem;
   /* fontSizeRatio x fontSizeUnit = fontSize) */
 
-  --cssr-lineHeight: calc(var(--cssr-fontSize) * 1.5625); /* your line height */
-  --cssr-capHeight: calc(var(--cssr-fontSize) * 0.75); /* adjust according to your font */
+  --r-lineHeight: calc(var(--r-fontSize) * 1.5625); /* your line height */
+  --r-capHeight: calc(var(--r-fontSize) * 0.75); /* adjust according to your font */
 }
 ```
 
 #### All availables custom props
 
-- `--cssr-fontSizeRatio`
-- `--cssr-fontSizeUnit`
-- `--cssr-fontSize`
-- `--cssr-lineHeight`
-- `--cssr-capHeight`
-- `--cssr-gutter-y`
-- `--cssr-gutter-x`
-- `--cssr-gutter`
-- `--cssr-VerticalRhythm-ratio`
-- `--cssr-h1-fontSize`
-- `--cssr-h1-lines`
-- `--cssr-h1-lineHeight`
-- `--cssr-h1-baseLineDistance`
-- `--cssr-h1-paddingTop`
-- `--cssr-h1-marginBottom`
-- `--cssr-h2-fontSize`
-- `--cssr-h2-lines`
-- `--cssr-h2-lineHeight`
-- `--cssr-h2-baseLineDistance`
-- `--cssr-h2-paddingTop`
-- `--cssr-h2-marginBottom`
-- `--cssr-h3-fontSize`
-- `--cssr-h3-lines`
-- `--cssr-h3-lineHeight`
-- `--cssr-h3-baseLineDistance`
-- `--cssr-h3-paddingTop`
-- `--cssr-h3-marginBottom`
-- `--cssr-h4-fontSize`
-- `--cssr-h4-lines`
-- `--cssr-h4-lineHeight`
-- `--cssr-h4-baseLineDistance`
-- `--cssr-h4-paddingTop`
-- `--cssr-h4-marginBottom`
-- `--cssr-h5-fontSize`
-- `--cssr-h5-lines`
-- `--cssr-h5-lineHeight`
-- `--cssr-h5-baseLineDistance`
-- `--cssr-h5-paddingTop`
-- `--cssr-h5-marginBottom`
-- `--cssr-h6-fontSize`
-- `--cssr-h6-lines`
-- `--cssr-h6-lineHeight`
-- `--cssr-h6-baseLineDistance`
-- `--cssr-h6-paddingTop`
-- `--cssr-h6-marginBottom`
-- `--cssr-small-fontSize`
+- `--r-fontSizeRatio`
+- `--r-fontSizeUnit`
+- `--r-fontSize`
+- `--r-lineHeight`
+- `--r-capHeight`
+- `--r-gutter-y`
+- `--r-gutter-x`
+- `--r-gutter`
+- `--r-VerticalRhythm-ratio`
+- `--r-h1-fontSize`
+- `--r-h1-lines`
+- `--r-h1-lineHeight`
+- `--r-h1-baseLineDistance`
+- `--r-h1-paddingTop`
+- `--r-h1-marginBottom`
+- `--r-h2-fontSize`
+- `--r-h2-lines`
+- `--r-h2-lineHeight`
+- `--r-h2-baseLineDistance`
+- `--r-h2-paddingTop`
+- `--r-h2-marginBottom`
+- `--r-h3-fontSize`
+- `--r-h3-lines`
+- `--r-h3-lineHeight`
+- `--r-h3-baseLineDistance`
+- `--r-h3-paddingTop`
+- `--r-h3-marginBottom`
+- `--r-h4-fontSize`
+- `--r-h4-lines`
+- `--r-h4-lineHeight`
+- `--r-h4-baseLineDistance`
+- `--r-h4-paddingTop`
+- `--r-h4-marginBottom`
+- `--r-h5-fontSize`
+- `--r-h5-lines`
+- `--r-h5-lineHeight`
+- `--r-h5-baseLineDistance`
+- `--r-h5-paddingTop`
+- `--r-h5-marginBottom`
+- `--r-h6-fontSize`
+- `--r-h6-lines`
+- `--r-h6-lineHeight`
+- `--r-h6-baseLineDistance`
+- `--r-h6-paddingTop`
+- `--r-h6-marginBottom`
+- `--r-small-fontSize`
 
 **Please look the source to see what rules are defined before using this lib ;)**
 
 ### Helper
 
-Attach the class `.cssr-VerticalRhythm-helper` to `<html>` to get a visual helper (horizontal lines) to make adjustements for existing content.
+Attach the class `.r-VerticalRhythm-helper` to `<html>` to get a visual helper (horizontal lines) to make adjustements for existing content.
 
 You can override the following defaults values to change the appearance of the lines
 
 ```css
 :root {
-  --cssr-VerticalRhythm-helper-color: rgba(0, 0, 0, .25);
-  --cssr-VerticalRhythm-helper-color--light: color(var(--cssr-VerticalRhythm-helper-color) alpha(- 33%));
-  --cssr-VerticalRhythm-helper-color--lighter: color(var(--cssr-VerticalRhythm-helper-color) alpha(- 66%));
+  --r-VerticalRhythm-helper-color: rgba(0, 0, 0, .25);
+  --r-VerticalRhythm-helper-color--light: color(var(--r-VerticalRhythm-helper-color) alpha(- 33%));
+  --r-VerticalRhythm-helper-color--lighter: color(var(--r-VerticalRhythm-helper-color) alpha(- 66%));
 }
 ```
 
