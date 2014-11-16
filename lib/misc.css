@@ -16,5 +16,6 @@
 .r-VerticalRhythm table,
 .r-VerticalRhythm fieldset,
 .r-VerticalRhythm hr {
-  margin: 0 0 var(--r-lineHeight);
+  margin-top: 0;
+  margin-bottom: var(--r-lineHeight);
 }
